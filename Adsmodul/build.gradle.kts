@@ -38,7 +38,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation (libs.onesignal)
     implementation (libs.masterads)
 }
 android {
