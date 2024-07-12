@@ -25,16 +25,17 @@ import java.security.NoSuchAlgorithmException;
 
 public class AdsHelper {
     public static boolean openads = false;
-    public static void gdpr(Activity activity, Boolean childDirected) {
+    public static void gdpr(Activity activity, Boolean childDirected, int keypos) {
     }
 
-    public static void initializeAds(Activity activity) {
+    public static void initializeAds(Activity activity, int pos) {
         if (!AudienceNetworkAds.isInitialized(activity)) {
             AudienceNetworkAds
                     .buildInitSettings(activity)
                     .withInitListener(new AudienceNetworkInitializeHelper())
                     .initialize();
         }
+        MasterAdsHelper.initializeAds(activity, pos);
 
     }
     public static void debugMode(Boolean debug) {
@@ -49,7 +50,7 @@ public class AdsHelper {
         com.facebook.ads.AdListener adListener = new com.facebook.ads.AdListener() {
             @Override
             public void onError(Ad ad, AdError adError) {
-
+            MasterAdsHelper.showBanner(activity,layout);
             }
 
             @Override

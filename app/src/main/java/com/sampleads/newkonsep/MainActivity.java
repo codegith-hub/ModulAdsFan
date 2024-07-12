@@ -30,17 +30,17 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        AdsHelper.initializeAds(this);
+        AdsHelper.initializeAds(this,1);
         if (BuildConfig.DEBUG){
             AdsHelper.debugMode(true);
         }
         AdsHelper.loadInterstitial(this,
-                "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID");
+                "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_IDx");
         AdsHelper.showBanner(this, findViewById(R.id.layAds),
-                "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID");
+                "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_IDx");
         this.findViewById(R.id.tbShow).setOnClickListener(v -> {
             AdsHelper.showInterstitial(MainActivity.this,
-                    "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",0);
+                    "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_IDx",0);
         });
 
         if (ContextCompat.checkSelfPermission(this, POST_NOTIFICATIONS) == PackageManager.PERMISSION_DENIED) {

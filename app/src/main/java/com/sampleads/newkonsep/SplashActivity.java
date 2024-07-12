@@ -25,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        AdsHelper.initializeAds(this);
+        AdsHelper.initializeAds(this,1);
         if (BuildConfig.DEBUG){
             AdsHelper.debugMode(true);
         }
