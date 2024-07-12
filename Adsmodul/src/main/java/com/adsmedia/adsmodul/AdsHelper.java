@@ -25,7 +25,6 @@ import java.security.NoSuchAlgorithmException;
 
 public class AdsHelper {
     public static boolean openads = false;
-    public static String keyopenApp = "f4020d13-3918-4c6a-899b-9585f30cdb84";
     public static void gdpr(Activity activity, Boolean childDirected) {
     }
 

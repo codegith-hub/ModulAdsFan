@@ -16,13 +16,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05d7850-5b1c-4345-ae76-fe7cf0ca0a39" name="Changes" comment="new logic V2">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f05d7850-5b1c-4345-ae76-fe7cf0ca0a39" name="Changes" comment="remove onesignal">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Adsmodul/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Adsmodul/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adsmodul/src/main/java/com/adsmedia/adsmodul/AudienceNetworkInitializeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Adsmodul/src/main/java/com/adsmedia/adsmodul/AudienceNetworkInitializeHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adsmodul/src/main/java/com/adsmedia/adsmodul/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Adsmodul/src/main/java/com/adsmedia/adsmodul/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adsmodul/src/main/java/com/adsmedia/adsmodul/AdsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Adsmodul/src/main/java/com/adsmedia/adsmodul/AdsHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/home/reskin-aliendroid/.android/avd/Pixel_7a_API_35.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -90,7 +94,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -257,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720326231863</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="remove onesignal">
+      <option name="closed" value="true" />
+      <created>1720479702049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720479702049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,6 +278,7 @@
     </ignored-roots>
     <MESSAGE value="new logic" />
     <MESSAGE value="new logic V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="new logic V2" />
+    <MESSAGE value="remove onesignal" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove onesignal" />
   </component>
 </project>

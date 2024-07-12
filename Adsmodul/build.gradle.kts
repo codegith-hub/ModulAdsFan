@@ -31,7 +31,7 @@ android {
 }
 
 dependencies {
-    implementation ("com.facebook.android:audience-network-sdk:6.17.0")
+    implementation (libs.audience.network.sdk)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.lifecycle.process)
