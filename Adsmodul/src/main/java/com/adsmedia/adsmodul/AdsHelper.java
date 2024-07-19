@@ -25,10 +25,11 @@ import java.security.NoSuchAlgorithmException;
 
 public class AdsHelper {
     public static boolean openads = false;
-    public static void gdpr(Activity activity, Boolean childDirected, String keypos) {
+    public static boolean directData = false;
+    public static void gdpr(Activity activity, Boolean childDirected, String keypos, String gameAppId) {
     }
 
-    public static void initializeAds(Activity activity, String pos) {
+    public static void initializeAds(Activity activity, String pos,String gameAppId) {
         if (!AudienceNetworkAds.isInitialized(activity)) {
             AudienceNetworkAds
                     .buildInitSettings(activity)
@@ -47,6 +48,7 @@ public class AdsHelper {
         bannerFan = new AdView(activity, metaId,
                 com.facebook.ads.AdSize.BANNER_HEIGHT_50);
         layout.addView(bannerFan);
+        directData = true;
         com.facebook.ads.AdListener adListener = new com.facebook.ads.AdListener() {
             @Override
             public void onError(Ad ad, AdError adError) {
@@ -73,6 +75,7 @@ public class AdsHelper {
     public static InterstitialAd interstitialFAN;
 
     public static void loadInterstitial(Activity activity, String admobId) {
+        directData = true;
         interstitialFAN = new com.facebook.ads.InterstitialAd(activity,admobId);
         interstitialFAN.loadAd();
     }
