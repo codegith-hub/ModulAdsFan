@@ -16,11 +16,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05d7850-5b1c-4345-ae76-fe7cf0ca0a39" name="Changes" comment="master Ads 1.0.10">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+    <list default="true" id="f05d7850-5b1c-4345-ae76-fe7cf0ca0a39" name="Changes" comment="add category">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +93,8 @@
       <recent name="$PROJECT_DIR$/Adsmodul/src/main/java/com/adsmedia/adsmodul" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.adsmedia.adsmodul.utils" />
+      <recent name="com.adsmedia.adsmodul.model" />
       <recent name="com.adsmedia.adsmodul" />
     </key>
   </component>
@@ -307,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721358363349</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add category">
+      <option name="closed" value="true" />
+      <created>1721441688962</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721441688962</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,6 +327,7 @@
     <MESSAGE value="add PN" />
     <MESSAGE value="add Ads ID" />
     <MESSAGE value="master Ads 1.0.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="master Ads 1.0.10" />
+    <MESSAGE value="add category" />
+    <option name="LAST_COMMIT_MESSAGE" value="add category" />
   </component>
 </project>

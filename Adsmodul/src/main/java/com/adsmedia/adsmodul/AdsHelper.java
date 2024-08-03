@@ -78,6 +78,7 @@ public class AdsHelper {
         directData = true;
         interstitialFAN = new com.facebook.ads.InterstitialAd(activity,admobId);
         interstitialFAN.loadAd();
+        MasterAdsHelper.loadInterstitial(activity);
     }
 
     public static int count = 0;
