@@ -40,6 +40,8 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation (libs.masterads)
     implementation (libs.gson)
+    implementation(libs.play.services.ads)
+
 }
 android {
     publishing {
